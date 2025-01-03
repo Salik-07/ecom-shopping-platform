@@ -1,5 +1,11 @@
+import { Button } from "@/components/ui/button";
+
 const HomePage = () => {
-  return <>Prostore!</>;
+  return (
+    <>
+      <Button>Click!</Button>
+    </>
+  );
 };
 
 export default HomePage;
